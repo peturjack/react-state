@@ -1,0 +1,24 @@
+
+
+.mybutton {
+    font-size: 2rem;
+    padding: 1.2rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    filter:invert(0%);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    margin-top: 2rem;
+    background-image: linear-gradient(to right, #AF40FF, #5B42F3);
+}
+
+.mybutton:hover {
+    filter:invert(100%);
+    
+}
+
+
+
+
