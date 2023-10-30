@@ -1,6 +1,6 @@
 import "./modal.css"
 import {ReactEventHandler, SyntheticEvent} from "react"
-import video from "../images/Scary Face With Scream.mp4"
+import video from "../images/scary-face.mp4"
 export function Modal() {
     const initVideo:ReactEventHandler<HTMLVideoElement> = (event:SyntheticEvent<HTMLVideoElement>) => {
         let vid = event.target as HTMLVideoElement
